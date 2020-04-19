@@ -2,7 +2,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        body: ['"Open Sans"', 'sans-serif']
+        'body': ['"Open Sans"', 'sans-serif'],
+        'display': ['Burbank', 'sans'],
       }
     }
   },
