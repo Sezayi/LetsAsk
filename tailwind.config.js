@@ -3,7 +3,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'body': ['"Open Sans"', 'sans-serif'],
-        'display': ['Burbank', 'sans'],
+        'display': ['Burbank', 'sans-serif'],
       }
     }
   },
