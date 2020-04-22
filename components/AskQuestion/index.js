@@ -24,7 +24,7 @@ const AskQuestion = () => {
           <TextInput
             placeholder="AskElon"
             value={value2}
-            onChange={(event) => setValue2(event.target.value2)}
+            onChange={(event) => setValue2(event.target.value)}
           />
         </div>
       </div>
@@ -32,11 +32,11 @@ const AskQuestion = () => {
         Your burning question
       </h2>
       <div className="flex flex-row justify-center ">
-        <div className="w-3/4 px-2 mt-4">
+        <div className="w-3/4 px-2 mt-4">   
           <TextInput
             placeholder="Is there a technological limit to what you are capable of creating?"
             value={value3}
-            onChange={(event) => setValue3(event.target.value3)}
+            onChange={(event) => setValue3(event.target.value)}
           />
         </div>
         <div className="px-2 mt-5">
