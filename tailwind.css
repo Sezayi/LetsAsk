@@ -1,11 +1,5 @@
 @tailwind base;
 
-/* @font-face {
-    font-family: Burbank;
-    font-weight: 900;
-    src: url(/static/fonts/Burbank.ttf) format("ttf");
-  }; */
-
 @tailwind components;
 
 @tailwind utilities;

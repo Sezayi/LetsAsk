@@ -12,9 +12,13 @@
     "autoprefixer": "^9.6.1",
     "core-js": "^3.6.5",
     "framer-motion": "^1.6.7",
+    "grommet": "^2.13.0",
+    "grommet-icons": "^4.4.0",
+    "grommet-theme-dxc": "^0.1.2",
     "next": "9.0.6",
     "react": "16.9.0",
     "react-dom": "16.9.0",
+    "styled-components": "^5.1.0",
     "tailwindcss": "^1.1.2"
   }
 }
