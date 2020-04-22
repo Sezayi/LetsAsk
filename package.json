@@ -5,12 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "firebase deploy"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "autoprefixer": "^9.6.1",
     "core-js": "^3.6.5",
+    "firebase": "^7.14.1",
     "framer-motion": "^1.6.7",
     "grommet": "^2.13.0",
     "grommet-icons": "^4.4.0",

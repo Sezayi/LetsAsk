@@ -17,6 +17,10 @@ class _Document extends Document {
                 <body className='font-body'>
                     <Main />
                     <NextScript />
+
+                    <script src="/__/firebase/7.14.1/firebase-app.js"></script>
+                    <script src="/__/firebase/7.14.1/firebase-analytics.js"></script>
+                    <script src="/__/firebase/init.js"></script>
                 </body>
             </Html>
         )
