@@ -14,7 +14,7 @@ class _Document extends Document {
         return (
             <Html>
                 <Head />
-                <body className='font-body'>
+                <body className='font-body bg-papergray'>
                     <Main />
                     <NextScript />
                 </body>

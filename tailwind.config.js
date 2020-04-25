@@ -1,8 +1,5 @@
 module.exports = {
   theme: {
-    colors: {
-      papergray: '#f7f7f7',
-    },
     fontSize: {
       xs: ".75rem",
       sm: ".875rem",
@@ -22,6 +19,11 @@ module.exports = {
         body: ['"Open Sans"', "sans-serif"],
         cursive: ['"Bangers"', "cursive"],
       },
+      colors: {
+        papergray: '#f7f7f7',
+        clearwhite: '#ffffff',
+        action: '#865cd6'
+      }
     },
   },
   variants: {},

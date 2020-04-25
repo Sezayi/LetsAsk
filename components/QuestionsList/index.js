@@ -26,16 +26,20 @@ const QuestionsList = () => {
   const questions = useQuestions();
 
   return (
-    <ol className="mt-8">
+    <ol className="mt-4 p-4 bg-papergray">
       {questions.map((question) => (
-        <motion.li key={question.id} className="flex justify-center flex-row w-full px-8 py-4">
-          <div className=" flex flex-row bg-papergray w-3/4 rounded p-4">
-      <p className="mr-2">{question.question}</p> <i>#{question.hashtag}</i>
-          </div>
-          <div className="bg-papergray rounded p-4">
-            <button>Vote</button>
-          </div>
-        </motion.li>
+        <>
+          <motion.li key={question.id} className=" flex justify-center items-center w-full px-8 py-4">
+              <div className=" flex shadow flex-row bg-white w-3/4 rounded p-4">
+                <p className="mr-2">{question.question}</p>{" "}
+                <i>#{question.hashtag}</i>
+              </div>
+              <div className="bg-papergray ml-4">
+                <button className="rounded bg-action text-white py-2 px-3">Vote</button>
+              </div>
+        
+          </motion.li>
+        </>
       ))}
     </ol>
   );
