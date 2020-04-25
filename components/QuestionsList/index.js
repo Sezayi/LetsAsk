@@ -31,11 +31,11 @@ const QuestionsList = () => {
         <>
           <motion.li key={question.id} className=" flex justify-center items-center w-full px-8 py-4">
               <div className=" flex shadow flex-row bg-white w-3/4 rounded p-4">
-                <p className="mr-2">{question.question}</p>{" "}
+                <p className="font-sans mr-2">{question.question}</p>{" "}
                 <i>#{question.hashtag}</i>
               </div>
               <div className="bg-papergray ml-4">
-                <button className="rounded bg-action text-white py-2 px-3">Vote</button>
+                <button className="font-sans rounded bg-action text-white py-2 px-3">Vote</button>
               </div>
         
           </motion.li>
