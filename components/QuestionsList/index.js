@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import { Button } from "grommet";
+import { Like } from "grommet-icons";
 
 import firebase from "../../src/firebase";
 
@@ -35,7 +37,9 @@ const QuestionsList = () => {
                 <i>#{question.hashtag}</i>
               </div>
               <div className="bg-papergray ml-4">
-                <button className="font-sans rounded bg-action text-white py-2 px-3">Vote</button>
+                {/* <button className="font-sans rounded bg-action text-white py-2 px-3">vote</button> */}
+                <button className="outline-none"><Button reverse={false}
+ size={'medium'} icon={<Like />} label="vote" /></button>
               </div>
         
           </motion.li>

@@ -57,8 +57,8 @@ const AskQuestion = () => {
             onChange={(e) => setQuestion(e.currentTarget.value)}
           />
         </div>
-        <div className="px-2 mt-5">
-          <button className="outline-none"><Button icon={<Add />} label="Submit" /></button>
+        <div className="px-2 mt-4">
+          <button className="outline-none"><Button primary={true} type={'submit'} size={"large"} icon={<Add />} label="submit" /></button>
         </div>
       </div>
     </form>
