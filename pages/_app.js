@@ -4,8 +4,6 @@ import Head from 'next/head'
 
 import '../tailwind.css'
 
-  
-
 class _App extends App {
 	render() {
 		const { Component, pageProps } = this.props

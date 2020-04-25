@@ -1,5 +1,8 @@
 module.exports = {
   theme: {
+    colors: {
+      papergray: '#f7f7f7',
+    },
     fontSize: {
       xs: ".75rem",
       sm: ".875rem",
